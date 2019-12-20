@@ -1,0 +1,95 @@
+
+.allCharacters{
+    max-width: 1000px;
+    margin: 50px auto 0 auto;
+    align-items: center;
+}
+
+.characterPack{
+    display: inline-block;
+    height: 110px;
+    width: 500px;
+}
+
+.character{
+    background-color: transparent;
+    outline: none;
+    border: 0;
+
+    float: left;
+    height:100px;
+    width: 100px;
+    margin: auto;
+
+    /* position: relative; */
+    text-align: center;
+}
+
+.thumbnail {
+    height:70px;
+    width: 70px;
+
+    border: 5px solid #5C5B59;
+    border-radius: 10px;
+
+    object-fit: cover
+}
+
+.thumbnail img {
+}
+
+.thumbnailText {
+    /*
+    position: absolute;
+    bottom: 25px;
+    left: 18%;
+    */
+}
+
+.unlockArea{
+    width: 240px;
+    height: 200px;
+
+    background-color: grey;
+    border: 5px solid #5C5B59;
+    border-radius: 10px;
+
+    position: fixed;
+    bottom: calc(50% - 50px);
+    left: calc(50% - 120px);
+
+    align-items: center;
+}
+
+.unlockArea input{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+
+    background-color: white;
+    outline: none;
+    border: 0;
+
+    font-size:40px;
+}
+
+.unlockArea button{
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+
+    background-color: #grey;
+    border: 5px solid #5C5B59;
+    border-radius: 10px;
+
+    font-size:30px;
+}
+
+
+.unlockArea input[type=text]:focus {
+    margin-top: 5px;
+    border: 5px solid #5C5B59;
+}
+
+.unlockArea{
+}
